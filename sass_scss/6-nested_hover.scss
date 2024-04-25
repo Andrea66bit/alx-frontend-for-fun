@@ -1,6 +1,9 @@
+/* assigns text color and makes button color change when hover */
+$color-0: #FF0000;
+$color-1: #00FF00;
 button {
-    color: #ff0000;
-    &:hover {
-      color: #00ff00;
-    }
+  color: $color-0;
+  &:hover {
+    color: $color-1;
   }
+}
